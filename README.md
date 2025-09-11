@@ -29,7 +29,7 @@ FartScrollLid uses the MacBook's internal lid angle sensor (discovered through r
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/fartscroll-lid.git
+git clone https://github.com/iannuttall/fartscroll-lid.git
 cd fartscroll-lid
 ```
 
