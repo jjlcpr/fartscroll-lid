@@ -42,7 +42,7 @@ open FartScrollLid.xcodeproj
 
 ### Option 2: Download Release
 
-Download the latest `.app` from the [Releases](https://github.com/yourusername/fartscroll-lid/releases) page.
+Download the latest `.app` from the [Releases](https://github.com/iannuttall/fartscroll-lid/releases) page.
 
 ## Usage
 
